@@ -294,7 +294,7 @@ Este circuito se utiliza con fines didácticos: con él se calibra el Venturi, y
 \subsubsection*{Esquema}
 \begin{figure}[H]
 \begin{center}
-\frame{\includegraphics[width=0.8\paperwidth,keepaspectratio]{example-image.jpg}}
+\frame{\includegraphics[width=0.8\paperwidth,keepaspectratio]{ensayopc.pdf}}
 \end{center}
 \caption{Circuito de ensayos de pérdida de carga}
 \end{figure}
@@ -323,6 +323,8 @@ V-08 & \\
 PO-01 & Placa orificio \\
 \midrule
 VE-01 & Tubo Venturi \\
+\midrule
+LI & Indicador de nivel \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -380,7 +382,7 @@ El sodio líquido (1) está contenido en el crisol de molibdeno (2), que se encu
 \begin{center}
 \frame{\includegraphics[width=0.4\paperwidth,keepaspectratio]{CORRONa.png}}
 \end{center}
-\caption{Circuito de ensayos de pérdida de carga}
+\caption{Instalación de corrosión en sodio CORRONa}
 \end{figure}
 \subsubsection*{Componentes}
 \begin{table}[H]
@@ -398,7 +400,7 @@ Código & Equipo \\
 7 & Entrada de gas y \newline monitoreo de P \\
 8 & Cubierta de pozo \\
 9 & Pozo de temperatura \\
-10 & Sector de enfriamiento de la cobertura \newline superior \\
+10 & Sector de enfriamiento de la cobertura superior \\
 11 & Salida de gas \\
 12 & Condensador de reflujo de vapor de sodio \\
 13 & Filtro de aerosoles \\
@@ -415,22 +417,88 @@ Código & Equipo \\
 \begin{tabular}{cp{3.5cm}}
 \toprule
 Presión & 0 $barg$ \\
-Temperatura & 25\celsius \\
-Caudal & $\leqslant 2$ L/s \\
-Potencia & No aplica \\
+Temperatura & $\leqslant700\celsius$ \\
+Caudal & $\leqslant 1$ m/s \\
+Potencia & $2\times6$ $kW$ \\
 \bottomrule
 \end{tabular}
 \end{table}
 \subsubsection*{Campañas experimentales y resultados}
 \begin{itemize}
-    \item Pérdida de carga con la placa orificio. Resulta ser mayor que en el Venturi.
-    \item Pérdidas de carga con la esclusa parcialmente y completamente cerrada. La válvula abierta tiene menor pérdida de carga.
-    \item Pérdida de carga en tramo recto. Se aproxima a los valores teóricos.
+    \item Descripción detallada de la oxidación de 316LN y T91.
+    \item Cinética a 550\celsius\,en sodio ligeramente oxidante para 316LN y T91
+    \item Estudios de los efectos del oxígeno sobre los mecanismos de oxidación a 550\celsius\,en aceros austeníticos
+    \item Estudio de la química del sodio y sus comportamientos en sistemas complejos.
+    \item Estudios de fragilización de metal líquido
+    \item Desarrollo de materiales cerámicos para sensores electroquímicos (oxígeno).
 \end{itemize}
 %\subsubsection*{Experimentos planeados}
 %Establecer el desempeño de varios equipos de instrumentación de sodio: transductores nuevos de alta temperatura, transductores ultrasónicos de matriz en fases, transductores electromagnéticos, y también experimentos para demostrar la habilidad de hacer visualización de sodio.
 
 %A largo plazo, DOLMEN será usado para el ensayo de técnicas de reparación de sodio.
 \subsubsection*{Actividades de entrenamiento}
-No está planificado un programa específico
+Sólo se planean capacitaciones para estudiantes de MSc y PhD.
+\subsection{CARNAC}
+\subsubsection*{Información general}
+\textit{Nombre de la instalación: }CARNAC: Continuous Sodium (\ce{Na}) Carbonation
+
+\textit{Refrigerante: }Sodio
+
+\textit{Ubicación: }CEA Cadarache, Francia
+
+\textit{Inicio de operación: }1998
+
+\subsubsection*{Estado}
+En operación
+
+\subsubsection*{Campo de I\&D}
+\begin{itemize}
+\item[$\square$] Instalación de potencia cero para V \& V y propósitos de licencia
+\item[$\square$] Design Basis Accidents (DBA) y Design Extended Conditions (DEC)
+\item[$\square$] Termohidráulica
+\item[$\boxtimes$] Química del refrigerante
+\item[$\square$] Materiales
+\item[$\square$] Sistemas y componentes
+\item[$\square$] Instrumentación \& ISI\&R
+\end{itemize}
+\subsubsection*{Descripción técnica}
+La instalación de CARNAC fue diseñada para estudiar la transformación química suave del sodio metálico (reacción progresiva) en compuestos químicos más estables en condiciones de temperatura y presión casi normales. Este tipo de proceso es necesario para tratar el sodio metálico residual antes de realizar operaciones de mantenimiento en condiciones de aire, por ejemplo.
+\subsubsection*{Esquema}
+\begin{figure}[H]
+\begin{center}
+\frame{\includegraphics[width=0.4\paperwidth,keepaspectratio]{example-image.jpg}}
+\end{center}
+\caption{Instalación de carbonación de sodio CARNAC}
+\end{figure}
+\subsubsection*{Componentes}
+\begin{table}[H]
+\centering
+\begin{tabular}{cp{4cm}}
+\toprule
+Código & Equipo \\
+\midrule
+\\
+\bottomrule
+\end{tabular}
+\end{table}
+\subsubsection*{Variables de proceso}
+\begin{table}[H]
+\centering
+\begin{tabular}{cp{3.5cm}}
+\toprule
+Presión & 100 $mbarg$ \\
+Temperatura & $20\celsius\leqslant T \leqslant60\celsius$ \\
+Caudal & $50\frac{L}{h}\leqslant F_v \leqslant10000\frac{L}{h}$ \\
+Potencia & No aplica \\
+\bottomrule
+\end{tabular}
+\end{table}
+\subsubsection*{Campañas experimentales y resultados}
+
+%\subsubsection*{Experimentos planeados}
+%Establecer el desempeño de varios equipos de instrumentación de sodio: transductores nuevos de alta temperatura, transductores ultrasónicos de matriz en fases, transductores electromagnéticos, y también experimentos para demostrar la habilidad de hacer visualización de sodio.
+
+%A largo plazo, DOLMEN será usado para el ensayo de técnicas de reparación de sodio.
+\subsubsection*{Actividades de entrenamiento}
+No se planean capacitaciones
 \end{document}
